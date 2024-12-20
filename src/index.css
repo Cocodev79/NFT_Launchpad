@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "KeaniaOne-Regular";
+    src: url(/KeaniaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Kadwa-Regular";
+    src: url(//Kadwa-Regular.ttf);
+}
+
+body{
+    background: #020001;
+    overflow-y: auto !important;
+    font-family: KeaniaOne-Regular, sans-serif;
+    overflow-x: hidden !important;
+}
+
+.main_container{
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 1259px;
+    margin: auto;
+    position: relative;
+}
+
+.kadwa_regular{
+    font-family: Kadwa-Regular, sans-serif;
+}
+
+.reverse {
+    animation: spin 1.5s linear reverse infinite;
+}
